@@ -1,1 +1,12 @@
+Paste the console output you saved at the end of step 3.C (2 points) fatal: not a git repository (or any of the parent directories): .git
 
+How many commits have been done to the repository (not only by you, but by anyone) so far? Write the git command you used to get this information (4 points)   4,  git log --pretty=format:'' | wc -l
+When was the README.md  file modified last? Write the git command you used to get this information (4 points) 9:22  $ git log ./path/to/README.php
+
+Mention two reasons why branches are used in a Git repository (4 points)    Fix Bugs, Develop New Features
+What is the difference between git log and git status? (4 points) Git log displays commit history, git status displays the whole status
+What command would you use to see the commits where “Vehicle.h” was one of the committed files? (4 points) git log [<options>] [<revision-range>] [[--] <Vehicle.h>…​]
+What command would you use to see the commits whose commit message contains the word “file”? (4 points) git log [<file>] [<revision-range>] [[--] <path>…​]
+In the context of object-oriented programming (I) What is inheritance? (II) What is polymorphism? (III) What is encapsulation? (6 points) Inheritance is concerned with the relationship between class and method, polymorphism is existing in multiple forms, and encapsulation protects the codes data
+What is the main difference between the “Dictator and Lieutenants” workflow and the “Integration manager” workflow? Dictator and Lieutenant workflow is focused on distributed development and integration manager is focused on conflict resolution
+How would a team of 100 developers benefit from following the “Dictator and Lieutenants” workflow instead of the “Centralized” workflow? yes
